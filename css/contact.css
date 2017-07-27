@@ -1,0 +1,48 @@
+/*Contact Form Styles */
+
+#contact-form-wrapper {
+    background-color: #ccc2c2; /*need to change */
+    height: 525px;
+    border-radius: 5px;
+}
+
+#contact-form-wrapper iframe {
+    margin-left: 10px;
+    width: 50%;
+    border: none;
+    float: left;
+}
+
+#contact-form-wrapper>h1 {
+    margin-top: 15%;
+    line-height: 35px;
+    width: 45%;
+    float: right;
+    color:#e40007;
+    text-shadow: 3px 3px 8px #000;
+}
+
+#map-wrapper {
+    height: 535px;
+    clear: both;
+    border-radius: 5px;
+    background-color: #c0b5b5; /* need to change */
+}
+
+#map-wrapper address {
+    width: 50%;
+    float: left;
+    font-weight: 900;
+    font-size: 32px;
+    padding: 170px 200px;
+    text-shadow: 2px 2px 4px #000;
+    color: #e40007;
+}
+
+#map-wrapper iframe {
+    float: right;
+    width: 500px;
+    height: 500px;
+    padding-top: 40px;
+    padding-right: 30px;
+}

@@ -1,0 +1,98 @@
+/* Hero section */
+
+#about-hero {
+    height: 130px;
+    background-image: url("../img/about_hero.jpg");
+    background-size: cover;
+    width: 872px;
+    float: left;
+    border-radius: 5px;
+}
+
+#about-hero~h1 {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 20px;
+    padding-left:1%;
+    text-shadow: 2px 2px 8px #000;
+    color: #e40007;
+}
+
+video {
+    height: 300px;
+    width: 400px;
+}
+
+/*---- columns section--*/
+
+/*.columns {
+    text-align: center;  edited out 7/22
+}*/
+
+#column {
+    /*text-align: center; /*universal*/
+    float: left;
+    width: 30%;
+        margin-left: 2%;
+    padding: 1%;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #000;
+    margin: 9px;
+    background-color: #a3a1a1;
+    position: relative;
+}
+
+#column p {
+    text-align: justify;
+    height:380px;
+    overflow: scroll;
+}
+
+#button {
+    display: block;
+    position: absolute;
+    bottom: 4px;
+    left: 35%;
+    border-radius: 5px;
+    background-color: #e3dede;
+    color: #000;
+    border: none;
+    padding: 1%;
+    font-size: 1em;
+    font-family: Permanent Marker, Monospace;
+    transition: 0.3s;
+}
+
+#button:hover {
+    border: 1px inset #e40007;
+    background-color: #8b8687;
+    color: #e40007;
+    font-weight: 600;
+    cursor: pointer; /* might not be needed after adding links*/
+}
+
+#button:active {
+    background-color: #a3a1a1;
+    color: #000;
+}
+
+/*#column_left {
+    float: left;  edited out 7/20/17
+    width: 30%;
+}
+
+#column_center {
+    float:left;
+    width: 30%;
+    /*position: relative;
+    left: 460px;*/
+    /*height:200px
+}
+
+#column_right {
+    float: right;
+    width: 30%;
+}*/
